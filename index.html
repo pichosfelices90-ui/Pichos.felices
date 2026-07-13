@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -24,7 +23,7 @@
         .hero { text-align: center; padding: 40px 20px; background-color: var(--rosa-claro); margin: 20px; border-radius: 20px; }
         .hero h2 { font-size: 2rem; margin-bottom: 15px; color: var(--texto-oscuro); }
         .hero p { max-width: 500px; margin: 0 auto 25px auto; color: var(--texto-mutado); }
-        .cta-buttons { display: flex; gap: 15px; justify-content: center; flex-wrap: wrap; }
+        .cta-buttons { display: flex; gap: 15px; justify-content: center; flex-wrap: wrap; margin-bottom: 10px; }
         .btn { display: inline-block; padding: 12px 25px; border-radius: 30px; text-decoration: none; font-weight: bold; transition: transform 0.2s; }
         .btn:hover { transform: scale(1.05); }
         .btn-primary { background-color: var(--texto-oscuro); color: var(--blanco); }
@@ -56,4 +55,30 @@
     <section class="hero">
         <h2># Snacks felices para <i>colas que menean</i></h2>
         <p>El recetario con snacks saludables pensados para el bienestar de tu perro o gato. ¡Ya disponible!</p>
-        <
+        <div class="cta-buttons">
+            <a href="#" class="btn btn-primary">Descargar e-book</a>
+            <a href="https://instagram.com" target="_blank" class="btn btn-secondary">Instagram</a>
+        </div>
+    </section>
+    <section class="recetas-container">
+        <div class="tabs-especie"><span>🐶 Perro</span> &nbsp;&nbsp;|&nbsp;&nbsp; <span>🐱 Gato</span></div>
+        <div class="receta-card">
+            <div class="receta-meta">Receta 01 · Horno</div>
+            <h3>Galletas de calabaza y avena</h3>
+            <a href="#" class="receta-link">Ver receta completa 📘</a>
+        </div>
+    </section>
+    <section class="filosofia">
+        <h2>🐾 Comida rica también es cuidado</h2>
+        <div class="grid-filosofia">
+            <div class="filosofia-item"><h3>Ingredientes simples</h3><p>Fáciles de preparar.</p></div>
+            <div class="filosofia-item"><h3>Bienestar</h3><p>Premia sin excesos.</p></div>
+        </div>
+    </section>
+    <section class="footer-banner">
+        <h2>El e-book que tu mascota merece</h2>
+        <a href="https://instagram.com" target="_blank" class="btn btn-primary">Consíguelo aquí</a>
+    </section>
+    <footer><p>Pichos Felices · Hecho con cariño</p></footer>
+</body>
+</html>
