@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pichos Felices — Recetario de Snacks Saludables</title>
+    <style>
+        :root {
+            --rosa-principal: #ffb7c5;
+            --rosa-claro: #ffeef1;
+            --texto-oscuro: #2b2b2b;
+            --texto-mutado: #666666;
+            --azul-libro: #4a90e2;
+            --blanco: #ffffff;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+        body { color: var(--texto-oscuro); background-color: var(--blanco); line-height: 1.6; }
+        header { text-align: center; padding: 40px 20px; background-color: var(--blanco); }
+        .avatar { width: 80px; height: 80px; background-color: var(--rosa-principal); border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; font-size: 2rem; margin-bottom: 10px; }
+        h1 { font-size: 1.8rem; margin-bottom: 5px; }
+        .tag-instagram { color: var(--texto-mutado); font-size: 0.9rem; margin-bottom: 15px; display: block; }
+        .badge-bienestar { display: inline-block; background-color: var(--rosa-claro); color: var(--texto-oscuro); padding: 5px 15px; border-radius: 20px; font-weight: bold; font-size: 0.9rem; }
+        .hero { text-align: center; padding: 40px 20px; background-color: var(--rosa-claro); margin: 20px; border-radius: 20px; }
+        .hero h2 { font-size: 2rem; margin-bottom: 15px; color: var(--texto-oscuro); }
+        .hero p { max-width: 500px; margin: 0 auto 25px auto; color: var(--texto-mutado); }
+        .cta-buttons { display: flex; gap: 15px; justify-content: center; flex-wrap: wrap; }
+        .btn { display: inline-block; padding: 12px 25px; border-radius: 30px; text-decoration: none; font-weight: bold; transition: transform 0.2s; }
+        .btn:hover { transform: scale(1.05); }
+        .btn-primary { background-color: var(--texto-oscuro); color: var(--blanco); }
+        .btn-secondary { background-color: var(--blanco); color: var(--texto-oscuro); border: 2px solid var(--texto-oscuro); }
+        .recetas-container { padding: 40px 20px; max-width: 800px; margin: 0 auto; }
+        .tabs-especie { text-align: center; margin-bottom: 30px; font-size: 1.2rem; }
+        .receta-card { background: var(--blanco); border: 1px solid #eee; border-radius: 15px; padding: 25px; margin-bottom: 25px; box-shadow: 0 4px 6px rgba(0,0,0,0.02); }
+        .receta-meta { color: var(--texto-mutado); font-size: 0.9rem; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 5px; }
+        .receta-card h3 { font-size: 1.5rem; margin-bottom: 15px; }
+        .receta-card ul { list-style-type: none; margin-bottom: 20px; }
+        .receta-card ul li { margin-bottom: 8px; position: relative; padding-left: 20px; }
+        .receta-card ul li::before { content: "•"; color: var(--rosa-principal); font-weight: bold; font-size: 1.2rem; position: absolute; left: 0; top: -2px; }
+        .receta-link { color: var(--azul-libro); text-decoration: none; font-weight: bold; }
+        .filosofia { background-color: #fafafa; padding: 60px 20px; text-align: center; }
+        .filosofia h2 { margin-bottom: 40px; font-size: 1.8rem; }
+        .grid-filosofia { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 30px; max-width: 1000px; margin: 0 auto; }
+        .filosofia-item h3 { margin-bottom: 10px; font-size: 1.3rem; }
+        .filosofia-item p { color: var(--texto-mutado); font-size: 0.95rem; }
+        .footer-banner { text-align: center; padding: 60px 20px; max-width: 600px; margin: 0 auto; }
+        .footer-banner h2 { font-size: 2rem; margin-bottom: 15px; }
+        .footer-banner p { color: var(--texto-mutado); margin-bottom: 30px; }
+        footer { text-align: center; padding: 30px; font-size: 0.85rem; color: var(--texto-mutado); border-top: 1px solid #eee; }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="avatar">🩷</div>
+        <h1>Pichos Felices</h1>
+        <span class
